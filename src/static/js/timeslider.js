@@ -30,7 +30,7 @@ var readCookie = require('./pad_utils').readCookie;
 var randomString = require('./pad_utils').randomString;
 var hooks = require('./pluginfw/hooks');
 
-var token, padId, export_links;
+var token, padId, export_links, socket, revisionInfo;
 
 function init() {
   $(document).ready(function ()
